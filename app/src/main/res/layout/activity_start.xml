@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:id="@+id/mainLayout"
+    android:padding="10dp"
+    tools:context=".StartActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:id="@+id/ivLogo"
+        android:layout_height="150dp"
+        android:src="@drawable/instagram_logo" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="Email" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Password" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Log in" />
+
+    <Button
+        android:id="@+id/sign_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Sign up"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Not sign up?" />
+
+    <TextView
+        android:id="@+id/tv_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Already signed up?"
+        android:visibility="gone" />
+
+</LinearLayout>

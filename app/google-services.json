@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "835792130548",
+    "firebase_url": "https://fir-demo-47a61-default-rtdb.firebaseio.com",
+    "project_id": "fir-demo-47a61",
+    "storage_bucket": "fir-demo-47a61.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:835792130548:android:7fc358e1237b33bbcca9a1",
+        "android_client_info": {
+          "package_name": "ru.startandroid.develop.instagramclone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "835792130548-h9kt81m9lfk31ujjkhkcicjgdosn2hrm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8wl77lwKSld-LC0noIhKsSfCvHCTlM90"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "835792130548-h9kt81m9lfk31ujjkhkcicjgdosn2hrm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
